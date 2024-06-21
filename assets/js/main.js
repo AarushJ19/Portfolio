@@ -18,6 +18,9 @@ document.getElementById("downloadbutton").addEventListener("click", function() {
   link.click();
 });
 
+document.getElementById("hireMeButton").addEventListener("click", function() {
+  document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+});
 
 /* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
   window.onscroll = function() {headerShadow()};
