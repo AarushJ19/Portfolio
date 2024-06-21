@@ -9,6 +9,16 @@ function myMenuFunction(){
     }
   }
 
+
+  
+document.getElementById("downloadbutton").addEventListener("click", function() {
+  const link = document.createElement("a");
+  link.href = "assets/images/AarushResume.pdf"; // Update with your PDF file path
+  link.download = "AarushResume.pdf"; // Update with your desired file name
+  link.click();
+});
+
+
 /* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
   window.onscroll = function() {headerShadow()};
 
@@ -87,7 +97,6 @@ const srRight = ScrollReveal({
 
 srRight.reveal('.skills-box',{delay: 100})
 srRight.reveal('.form-control',{delay: 100})
-
 
 
 /* ----- CHANGE ACTIVE LINK ----- */
