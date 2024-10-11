@@ -13,8 +13,8 @@ function myMenuFunction(){
   
 document.getElementById("downloadbutton").addEventListener("click", function() {
   const link = document.createElement("a");
-  link.href = "assets/images/AarushResume.pdf"; // Update with your PDF file path
-  link.download = "AarushResume.pdf"; // Update with your desired file name
+  link.href = "assets/images/Aarush_CV.pdf"; // Update with your PDF file path
+  link.download = "Aarush_CV.pdf"; // Update with your desired file name
   link.click();
 });
 
